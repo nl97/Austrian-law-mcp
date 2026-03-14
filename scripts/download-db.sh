@@ -3,7 +3,7 @@
 set -e
 
 VERSION=$(node -p "require('./package.json').version")
-REPO="Ansvar-Systems/Austria-law-mcp"
+REPO="nl97/Austrian-law-mcp"
 TAG="v${VERSION}"
 ASSET="database.db.gz"
 OUTPUT="data/database.db"
